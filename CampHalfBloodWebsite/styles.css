@@ -1,0 +1,261 @@
+/* General Styles */
+body {
+  background-image: url('Images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  padding-top: 60px; /* Padding to avoid content hidden under the fixed header */
+}
+
+header {
+  background-color: #253830;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 3em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+ color: #ffffff;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+/* Cabins Styling */
+/* Cabins Styling */
+.cabin {
+  background-color: rgba(127, 147, 149, 0.9); /* Light background with slight transparency */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+}
+
+.cabin h3 {
+  color: #fffff5;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.cabin p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #253830; /* Changed to black for maximum contrast */
+}
+
+
+/* Navigation Bar Styling */
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  color: #f4e04d; /* Hover effect for navigation links */
+}
+
+/* General Styles for Activities Page */
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Title */
+h2 {
+  font-family: 'Cinzel Decorative', cursive;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Activity Styling */
+.activity {
+  background-color: rgba(127, 147, 149, 0.9); /* Light background with slight transparency */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+}
+
+.activity h3 {
+ color: #fffff5;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.activity p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #253830; /* Black color for better readability */
+}
+
+/* Footer Style */
+footer {
+  background-color: #253830;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+/* Other styles */
+
+/* Centering the introductory text */
+main p {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+/* Other styles */
+/* Title Banner Style for Oracle & Quests Page */
+.banner {
+  padding: 40px 20px;
+  text-align: center;
+  color: #253830; /* Gold color */
+}
+
+.banner h1 {
+  font-family: 'Cinzel Decorative', cursive; /* Fancy font */
+  font-size: 4em;
+  margin: 0;
+}
+
+/* General Content Styling */
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+ul li strong {
+  font-weight: bold;
+}
+
+.subheading h2 {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  line-height: 1.1em;
+  font-size: 1em;
+  color: #ffffff;
+}
+.subheading {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 2.3em;
+  font-weight: 600;
+  color: #253830; /* optional: gold-like color */
+  text-align: center;
+  margin-top: 20px;
+}
+.map-wrapper {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.map-wrapper img {
+  width: 100%;
+  display: block;
+  border: 4px solid #ffae42;
+}
+
+.hotspot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 165, 0, 0.6);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.hotspot:hover {
+  background-color: rgba(255, 140, 0, 0.9);
+}
+p.new-color {
+  color: #253830; /* Change to your desired color */
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+.map-section {
+  text-align: center;
+  padding: 2rem;
+}
+
+.map-section h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.map-section p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+
+.map-image {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}

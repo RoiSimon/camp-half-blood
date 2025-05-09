@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camp Half-Blood | About & Quests</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Camp Half-Blood</h1>
+    <p>"Where heroes are made, one quest at a time"</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cabins.html">Cabins</a></li>
+        <li><a href="activities.html">Activities</a></li>
+        <li><a href="quests.html">Quests</a></li>
+        <li><a href="map.html">Map</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="banner">
+    <h1>Contact Camp Half-Blood</h1>
+    <p>If you're a demigod, satyr, or friendly mortal in need of assistance—or if you want to learn more about camp—here's how to reach us!</p>
+
+    <section class="contact-info">
+      <h3>Camp Address</h3>
+      <p><strong>Camp Half-Blood</strong><br>
+      Farm Road 3.141<br>
+      Long Island Sound, New York<br>
+      (Magically hidden from mortal eyes)</p>
+
+      <h3>Messenger Iris (IM)</h3>
+      <p>For urgent matters, send a message via rainbow using a drachma and a clear water source.</p>
+
+      <h3>Email (for mortals only)</h3>
+      <p><a href="mailto:camphalfbloodiris@gmail.com">camphalfbloodiris@gmail.com</a></p>
+    </section>
+
+    <section class="contact-form">
+      <h3>Send Us a Message</h3>
+      <form action="https://formsubmit.co/camphalfbloodiris@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New message from the Camp Half-Blood website!">
+        <input type="hidden" name="_captcha" value="false">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="cabin">Cabin (if known):</label>
+        <input type="text" id="cabin" name="cabin" />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hidden on Long Island Sound | Protected by the Mist </p>
+    <p>&copy; 2025 Camp Half-Blood. All rights reserved.</p>
+  </footer>
+</body>
+</html>
